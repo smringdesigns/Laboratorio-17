@@ -1,0 +1,17 @@
+print("Paso 1A. Imprimir un mensaje")
+#Paso 1B. Declarar variables y realizar operaciones
+entero = 10
+flotante = 10.5
+cadena = "Hola mundo"
+suma = entero + flotante 
+resta = entero - flotante
+multiplicacion = entero * flotante
+division = entero / 5
+print("La suma es:", suma)
+print("La resta es:", resta)
+print("La multiplicacion es:", multiplicacion)
+print("La division es:", division)
+#Paso 1C. Concantenar cadenas de tecto y funciones basicas
+nombre = input("¿Cual es tu nombre? ")
+print("Hola," + nombre + " me alegra conocerte")
+print(f"Hola {nombre}, eres un gran ser humano")

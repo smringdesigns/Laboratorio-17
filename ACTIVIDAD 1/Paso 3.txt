@@ -1,0 +1,29 @@
+#Paso 3 Listas y Dicicionarios
+print("Paso 3a Crear una lista de elementos. ")
+estudiantes = ["Maria", "Pablo", "Manuelito", "Juan"]
+contador = 1
+for n in estudiantes:
+    print(f"El nombre del estudiante {contador} es: {n}")
+    contador +=1
+
+print("Paso 3b Diccionarios")
+contactos = {
+    "Maria" : "Maria@gmail.com",
+    "keiner" : "keiner@gmail.com",
+    "juanito" : "juanito@gmail,com",
+    "sofia" : "sofiaplus@gmail.com"
+}
+for clave, valor in contactos.items():
+    print(f"El nombre es: {clave}, el correo es: {valor}")
+    
+#Paso 3c
+print ("Paso 3c implementar un script para agregar elementos a una lista")
+nuevoEstudiante = input("Ingrese un nuevo estudiante a la lista: ")
+estudiantes.append(nuevoEstudiante)
+print("La lista actualizada es: ",estudiantes)
+
+#Paso 3c (ACTUALIZAR LA LISTA)
+nuevo_contacto = input("Ingrese el nuevo NOMBRE del contacto: ")
+nuevo_correo = input("Ingrese el nuevo CORREO del contacto: ")
+contactos[nuevo_contacto] = nuevo_correo
+print(f"El diccionario actualizado es: {contactos}")

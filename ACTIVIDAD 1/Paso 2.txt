@@ -1,0 +1,20 @@
+#Actividad 1
+#Paso 2. Condicionales y Bucles
+print("Pado 2A. Par o Impar")
+
+numero=int(input("Digite un numero entero: "))
+if numero % 2 == 0:
+    print(f"El numero {numero} es par.")
+else:
+    print(f"El numero {numero} es impar")
+    
+print("Paso 2B. Imprimir sus cuadrados")
+ListaNumeros = [1, 2, 3, 4, 5, 6, 7]
+for n in ListaNumeros:
+    print(f"El cuadrado de {n} es {n*n}")
+    
+print("Paso 2C. Solicitar repetidamente la entrada del usuario")
+entrada = ""
+while entrada != "0":
+    entrada=input("Introduzca un numero(Digite 0 para salir.): ")
+    print(f"El numero digitado es: {entrada}")
